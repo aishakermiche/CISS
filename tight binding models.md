@@ -1,0 +1,1 @@
+Model that describes electrons tightly bound in solids, so that the wave function will be similar to the atomic orbital which it belongs. 

@@ -1,0 +1,1 @@
+"Non-magnetic", or a material that is repelled by a magnetic field. DNA and protein structures are diamagnetic, meaning they do not experience any intrinsic magnetization, making the CISS effect surprising. 

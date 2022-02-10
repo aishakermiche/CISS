@@ -1,0 +1,5 @@
+The current issue is whether or not the spin superposition of the electron transport through a chiral molecule is [[coherence and decoherence |coherent]]. If the effect is spin filtering, this implies that information is destroyed in the process of the electron transport through the chiral molecule. This would make the CISS effect unsuitable for quantum information applications.
+
+The bulk majority of the literature describe the effect as "spin filtering" but also extol its benefits for quantum applications. This is a contradiction that needs to be resolved. 
+### References
+![[@zollner_insight_2020#^74b905]] - A substantial body of experimental results support that "electron transport, electron transfer, or bond polarization in extended chiral systems translates into electron spin polarization." Does not specify if this polarization is spin filtering or spin flipping, but uses the term "spin filtering effects"

@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="Aisha Kermiche" />
+  <title>Assessing Phase Coherence in the Chiral Induced Spin Selectivity Effect: Review of Theoretical Approaches</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Assessing Phase Coherence in the Chiral Induced Spin Selectivity Effect: Review of Theoretical Approaches</h1>
+<p class="author">Aisha Kermiche</p>
+<p class="date">University of California - Los Angeles, Department of Electrical Engineering, Quantum Biology Tech (QuBiT) Lab</p>
+</header>
+<hr />
+<h2 id="outline">Outline</h2>
+<ol type="1">
+<li>Introducing the CISS Effect</li>
+<li>Potential applications</li>
+<li>Literature review: ambiguities in experimental results</li>
+<li>Current work: reproduction of charge transport models</li>
+<li>Future directions</li>
+</ol>
+<h2 id="objectives-in-progress">Objectives (in progress)</h2>
+<p>Recreate and compare theoretical models proposed in literature</p>
+<p>Propose novel simulation approach to determine coherence of electron transport in chiral molecules</p>
+<hr />
+<h1 id="overview-of-chiral-induced-spin-selectivity-effect">Overview of chiral induced spin selectivity effect</h1>
+<p>Unlike in man-made electronic devices, where electron transport is facilitated through metals and semimetals, biological systems rely on electron transport through diamagnetic, insulating molecules with minimum heat dissipation.</p>
+<p>Chiral molecules can produce spin polarized electrons without the need for ferromagnetism, meaning they are promising as a new class to topological materials. <img src="DNA.png" /></p>
+<h1 id="characteristics-of-the-ciss-effect">Characteristics of the CISS effect</h1>
+<ol type="1">
+<li>non-equilibrium effect, requiring electron transfer through chiral molecules</li>
+<li>requires large spin-orbit coupling (SOC) enhancement</li>
+<li>flipping the chirality of the molecule flips the polarization</li>
+<li>as of current evidence, polarization increases with increasing length of the chiral molecule. <img src="ciss.png" alt="Illustration of CISS effect" /> <em>S. Mishra <em>et al.</em>, “Spin Filtering Along Chiral Polymers,” <em>Angewandte Chemie</em>, vol. 132, no. 34, pp. 14779–14784, 2020, doi: <a href="https://doi.org/10.1002/ange.202006570">10.1002/ange.202006570</a>.</em></li>
+</ol>
+<h1 id="potential-applications">Potential applications</h1>
+<ul>
+<li>This ability to manipulate and control spin through charge transfer processes at room temperature with minimum heating can be exploited in the development of spintronic devices, with implications for the transfer and storage of information in quantum computing applications.</li>
+<li>In order to be useful, charge transfer must be coherent in these interconnects. <img src="application.png" alt="Spin qubit processor with chiral molecules as long range interconnects" /> <em>C. Aiello, “Towards a Room-Temperature Hierarchical Interconnect System for Quantum Information Processing.” (accessed Dec. 09, 2021)</em></li>
+</ul>
+<h1 id="classical-intuition">Classical intuition</h1>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><img src="solenoid.png" /> <img src="SOC.png" alt="Image From Topological Matter School 2016" /></p>
+</div><div class="column" style="width:50%;">
+<ul>
+<li>Theoretical approaches so far have assumed a close connection between chirality and spin-orbit interaction.</li>
+<li>So perhaps it could be the quantum version of the solenoid field, chiral induced spin orbit coupling, could explain it, but still <strong>the order of magnitude is far too small</strong>.</li>
+</ul>
+</div>
+</div>
+<h1 id="experimental-results">Experimental results</h1>
+<h3 id="language-of-spin-flipping-spin-filtering-is-ambiguous">Language of spin-flipping, spin-filtering is ambiguous</h3>
+<ul>
+<li>If the chiral molecule is truly “spin-filtering”, that means that the wave function collapses as it is transmitted, rendering the effect useless for qubit transport (though it is still applicable for qubit preparation)</li>
+<li>Weizmann Institute group (original investigators of the effect) claim that experiments support the effect as spin filtering rather than spin flipping, and that their current model <strong>does not require the charge transport to be coherent</strong>. <img src="paper.png" alt="." /></li>
+</ul>
+<div class="notes">
+<ul>
+<li>what I would like to do is look closely at the experiments they used to support these assertions.</li>
+</ul>
+</div>
+<hr />
+<div class="columns">
+<div class="column" style="width:60%;">
+<figure>
+<img src="experiment.png" style="width:100.0%" alt="Experimental set up" /><figcaption aria-hidden="true">Experimental set up</figcaption>
+</figure>
+</div><div class="column" style="width:40%;">
+<p><img src="IVcurve.png" alt="I-V curve for chiral polymer" />){width=50%}</p>
+</div>
+</div>
+<hr />
+<h1 id="weizmann-group-conclusions">Weizmann group conclusions</h1>
+<ul>
+<li>The nonlinear I-V curves suggests that <strong>back-scattering is suppressed</strong></li>
+<li>Spin polarization scales proportional to the length of the molecule.</li>
+<li><strong>Because there is a different threshhold for each spin conduction this indicated no spin flipping</strong>. The molecules are passive filters. They don’t actively flip the spin, only reject unfavorable spins at a higher probability.</li>
+<li>Polarization is similar to that obtained with photoelectrons</li>
+<li><strong>The spin orbit coupling allows for long range electron transfer</strong>. It allows for electron transfer in proteins and biological systems because back scattering is suppressed.</li>
+</ul>
+<h1 id="broad-range-of-modeling-approaches-exist">Broad range of modeling approaches exist</h1>
+<p><img src="Review.png" /> <img src="sigh.png" /></p>
+<div class="notes">
+<ul>
+<li>So there was a workshop at the Weizmann Institute in early 2020 which was a meeting of theorists, and this paragraph concluded the summary of the models</li>
+<li>I won’t exhaustively examine each one, because they are so diverse, some are spin flipping, some have two different terminals, some are time-reversible, some are time-irreverible, I will try to focus on the ones that are relevant to what would be required for the effects to be coherent</li>
+</ul>
+</div>
+<h1 id="analytical-tight-binding-time-reversible-model">Analytical tight binding, time reversible model</h1>
+<p><img src="michaeli.png" style="width:50.0%" alt="Tight binding model by Michaeli and Naaman (2019)" /> <img src="block.png" style="width:50.0%" alt="Spin blocking effect" /> ### Assumptions - Tight binding model allows for wire to be treated as quasi-one dimensional - Small SOC responding to large dipole - <strong>spin conduction does not have to be coherent in order to achieve the spin polarization</strong> ::: notes - so next I would like to include just a brief overview of my efforts as someone new to this field to recreate these models :::</p>
+<h1 id="symmetry-analysis">Symmetry analysis</h1>
+<p><img src="zollnerref.png" /></p>
+<p>-Imaginary terms in the Hamiltonian are a result of spin orbit coupling, and they <strong>preserve the Hermitian nature of the Hamiltonian</strong> - <strong>SOC is not related to the breaking of time reversal symmetry</strong>. Obeys <strong>Kramer’s Degeneracy</strong></p>
+<h1 id="applying-landauer-formalism">Applying Landauer Formalism</h1>
+<p><img src="zollner.png" /> Full Green’s function characterization of a chiral molecular junction, DFT</p>
+<h1 id="aharonov-bohm-ab-effect">Aharonov-Bohm (AB) Effect</h1>
+<ul>
+<li>An electron experiences a phase difference due to a magnetic field.</li>
+<li>The induced phase has to undergo a time irreversible transformation, which can be done by either
+<ul>
+<li>Introducing an external magnetic field</li>
+<li>Introducing leakages <img src="ab.png" data-align="left,height=20%" alt="Aharonov-Bohm Interference" /> <img src="idiamond.png" data-align="right" /></li>
+</ul></li>
+</ul>
+<hr />
+<p><img src="aharonyref.png" /></p>
+<p><img src="Hop.png" data-align="bottom,height=80%" /> _________</p>
+<h1 id="non-equilibrium-greens-functions-negf">Non-equilibrium Green’s functions (NEGF)</h1>
+<ul>
+<li><p>Semiclassical transport combines Newtonian mechanics with entropic effects (Botlzmann equation)</p></li>
+<li><p>Standard method for solving for quantum transport, we can obtain the NEGF equations from this equation: <span class="math inline"><em>E</em><em>Ψ</em> = <em>H</em><em>ψ</em> + <em>Σ</em><em>Ψ</em> + <em>s</em></span></p></li>
+<li><p>The self energy term <span class="math inline"><em>Σ</em></span> represent the non-Hermitian loss of information (entropic processes)</p></li>
+<li><p>Starting with the one electron picture will help to bring clarity to this discussion</p></li>
+<li><p>Not just solving for the energy levels across the channel, but also adding a statistical mechanics term that accounts for entropy effects. The Hamiltonian is then Hermitian but the self energy function is not, and it is compensated by the influx of electrons into the particular energy level.</p></li>
+</ul>
+<p>[[Fundamentals of Nanoelectronics, Prof. Datta]]</p>
+<h1 id="tentative-schedule-of-tasks-in-the-coming-months">Tentative schedule of tasks in the coming months</h1>
+<ol type="1">
+<li>NEGF single electron model of electron transport</li>
+<li>Seeing how the parameterization of the electron trajectory</li>
+<li>An examination of topological resonance when you change the pitch and frequency of the chiral molecule</li>
+<li>A change in functional groups and how that affects the spin polarization and coherence</li>
+<li>I want to be able to tie a thermodynamic account of information to the topological problem to the quantum mechanics of the ciss effect. The relevant textbooks include:</li>
+</ol>
+<ul>
+<li>Information, mechanics, and meeting</li>
+<li>Ryndyk textbook</li>
+<li>Datta textbook</li>
+<li>Thermodynamics in dynamical systems.</li>
+</ul>
+<p>[[complexity is the boundary between order and chaos]] # Main conclusions - Destruction of unitary transformation, either through the destruction of time reversal or reflection symmetry, may be necessary to achieve charge polarization - Interference pattern is obtainable, implying that a phase superposition is preserved - Main theoretical considerations are - Symmetry (time parity) - Leakages - Non-equilibrium effects</p>
+<h1 id="future-work-for-the-qubit-lab">Future work for the QuBiT lab</h1>
+<h4 id="introducing-interferometry-experiments-into-the-investigation-of-the-ciss-effect">Introducing interferometry experiments into the investigation of the CISS effect</h4>
+<h4 id="relating-ciss-effect-to-spin-controlled-reactions">Relating CISS effect to spin-controlled reactions</h4>
+</body>
+</html>

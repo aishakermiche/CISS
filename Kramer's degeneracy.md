@@ -1,0 +1,1 @@
+Kramer's degeneracy is the idea that for every eigenstate of a time-reversal symmetric system, there has to be an equivalent state with the same energy. For every eigenstate $\ket{n}$, the time reverse state must $T\ket{n}$ is also an eigenstate with the same energy. 
