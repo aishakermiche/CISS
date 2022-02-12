@@ -16,6 +16,7 @@
 	% Using DFT to determine the 
 	% Questioning assumptions of the analytical models
 	% How do you determine causality and mechanism if all models provide sufficient prediction of the spin polarization? 
+	% Classical control of helix to optimize the spin state 
 
 % The concrete tasks are:
 	% Make a MATLAB code that can do quick exchanging of model assumptions and measure the conductance and spin polarization of electrons through a chiral molecule.
