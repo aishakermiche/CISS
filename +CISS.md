@@ -1,6 +1,6 @@
 This is a note library created and maintained by Aisha Kermiche, a post-baccalaureate student in the Quantum Biology Tech (QuBIT) lab at UCLA.  This library documents literature surveys and ongoing investigations into the Chiral Induced Spin Selectivity Effect (CISS). 
 
-## [[Objectives]]
+## [Objectives](../Objectives.md)
 ## [[Overview]]
 ## [[Origin]]
 ## [[Application]]
