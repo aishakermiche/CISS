@@ -9,7 +9,7 @@ Basic experiments:
 	5. Cannot have filtering without polarization or polarization without spin. We cannot preserve the polarization of the spin. 
 	6. What is being meant by no back scattering 
 	7. spinor effect "like that"
-	8. ***THIS IS MEASUREMENT SYSTEM. [[Measurement as a way of seeing]] [[measurement as gaze]] ***
+	8. ***THIS IS MEASUREMENT SYSTEM. [Measurement as a way of seeing](Measurement%20as%20a%20way%20of%20seeing.md) [measurement as gaze](measurement%20as%20gaze) ***
 	9. ***NONLINEAR EFFECT. INTERACTION. IT HAS TO INTERACT WITH PHONONS***
 	10. ***INTERACTING SYSTEMS ALWAYS LEAD TO DECOHERENCE***
 	11. ***AB INTERFEROMETRY IS VERY HARD TO EXECUTE***

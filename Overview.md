@@ -9,7 +9,7 @@ The chiral induced spin selectivity effect (CISS) is a phenomenon in which elect
 3. flipping the chirality of the molecule flips the polarization
 4. as of current evidence, polarization increases with increasing length of the chiral molecule.
 
-![[ciss.png]][^2]
+![ciss](+CISS/Images/ciss.png)[^2]
 Fig. 1-1: Illustration of spin polarization-induced enantioselective reaction mechanism. 
 
 Questions: 
@@ -17,9 +17,9 @@ Questions:
 2. What causes then robust CISS?
 
 #### Links
-1. [[Biological Homochirality remains a mystery]] 
+1. [Biological Homochirality remains a mystery](+CISS/Biological%20Homochirality%20remains%20a%20mystery.md) 
 #### References
 
-[^1]: ![[@michaeli_origin_2019#^c49063]]
-[^2]: ![[@aiello_chirality-based_nodate#^7f12c8]]
-[^3]: ![[@michaeli_origin_2019#^c49063]]
+[^1]: ![](+CISS/Literature%20Notes/@michaeli_origin_2019.md#^c49063)
+[^2]: ![](+CISS/Literature%20Notes/@aiello_chirality-based_nodate.md#^7f12c8)
+[^3]: ![](+CISS/Literature%20Notes/@michaeli_origin_2019.md#^c49063)

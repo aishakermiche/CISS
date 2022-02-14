@@ -1,11 +1,11 @@
 
 1. Simple ID analytical model with reversible spin orbit coupling
-Helical model with 1 dimensional Hamiltonian modeled by [[@michaeli_origin_2019 | Michaeli et. al (2019)]]
-2. Non-equilibrium Green's function treatment with symmetry analysis [[@zollner_insight_2020 | Zollner et. al (2020)]]
-3. Time reversal symmetry by [[@aharony_filtering_2011 | Aharony (2011)]] , [[@aharony_time-reversal_1970 | (1970)]]
-4. Spin blockage theory [[@naaman_chiral_2020 | Naaman (2020)]]
+Helical model with 1 dimensional Hamiltonian modeled by [ Michaeli et. al (2019)](@michaeli_origin_2019%20)
+2. Non-equilibrium Green's function treatment with symmetry analysis [ Zollner et. al (2020)](@zollner_insight_2020%20)
+3. Time reversal symmetry by [ Aharony (2011)](@aharony_filtering_2011%20) , [ (1970)](@aharony_time-reversal_1970%20)
+4. Spin blockage theory [ Naaman (2020)](@naaman_chiral_2020%20)
 
-[[Karen Michaeli Meeting Notes]]
+[Karen Michaeli Meeting Notes](Karen%20Michaeli%20Meeting%20Notes.md)
 ## Main themes of interest
 - Evanescent states, different penetration depth of the electron
 - **Multiple Realizability**

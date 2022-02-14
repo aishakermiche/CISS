@@ -1,4 +1,4 @@
-![[ab.png]]
+![ab](ab.png)
 The Aharonov-Bohm effect describes a phase shift that occurs in an electrically charged particle traveling normal to a solenoid. 
 
 If a particle moves in a region where the magnetic field is 0, but the magnetic potential is not equal to 0:

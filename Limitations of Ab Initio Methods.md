@@ -5,11 +5,11 @@ Molecular dynamics simulations relying on modeling the interaction between atoms
 
 
 ### Links
-1. [[why perform simulations]]
+1. [why perform simulations](why%20perform%20simulations.md)
 ### Tags
-[[simulations]]
+[simulations](simulations)
 
-#### [[Questions]]
+#### [Questions](Questions.md)
 - [ ] How do we turn a stochastic quantum system into a deterministic one? What is the formulation mathematically? How do we remove the uncertainty inherint to the quantum system? 
 - [ ] Is determinism is the fundamental assumption of ab initio methods?
 - [ ] Is the potential energy term in the schrodinger equation something that is empirically derived? Like in molecular dynamics? 
